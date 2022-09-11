@@ -4,34 +4,34 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "wx544b2d50b18cdc23",
+    APP_ID: "wx3b69927fe4985984",
 
     // 公众号APP_SECRET
-    APP_SECRET: "158d1d53029246aef955602f8355809e",
+    APP_SECRET: "b5335b17791ff41f2aae3d6a9ee5a30a",
 
     // 模板消息id
-    TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
+    TEMPLATE_ID: "F6mD8R6ksrc_PaivuyM8RwYXrcAjZuH6kA9OS2AOKLQ",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
+    CALLBACK_TEMPLATE_ID: "igY6SzxxGvgkrlCUWdnsi-4Fb04IjGEQzm5mo03gtPg",
 
 
     /**
      * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
      * [
-     *   {name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-     *   {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},
+     *   {name: 'Theme', id: "oVRmw6seH4EPt31HvxcG7Hx703_Y"}, 
+     *   {name: '温温', id: "oVRmw6sV5sbUhQhj7CoXYAlu5RLo"},
      * ]
      */
     USERS: [
-      //{name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-      {name: '小仙女', id: "osV6d56nzj2jlGvk2Q7RS_kmBmPc"}, 
+      //{name: 'Theme', id: "oVRmw6seH4EPt31HvxcG7Hx703_Y"}, 
+      {name: 'Theme', id: "oVRmw6seH4EPt31HvxcG7Hx703_Y"}, 
       //{name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       //{name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
+      {name: '自己',id: "oVRmw6sV5sbUhQhj7CoXYAlu5RLo"}, 
     ],
      
     /**
@@ -41,9 +41,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "山东",
+    PROVINCE: "吉林",
     // 所在城市
-    CITY: "聊城",
+    CITY: "长春",
 
     /** 重要节日相关 */
 
@@ -54,10 +54,10 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "小仙友", "year": "2000", "date": "11-26"},
-      {"type": "生日", "name": "小瑞子", "year": "2001", "date": "10-10"},
-      {"type": "节日", "name": "纪念日", "year": "2020", "date": "01-19"},
-      {"type": "节日", "name": "宝贝考研", "year": "2023", "date": "12-25"},
+      {"type": "生日", "year": "2002", "date": "9-6"}
+      //{"type": "生日", "year": "2002", "date": "10-10"}
+      //{"type": "节日", "name": "纪念日", "year": "2020", "date": "01-19"},
+      //{"type": "节日", "name": "宝贝考研", "year": "2023", "date": "12-25"},
     ],
 
     /**
@@ -66,7 +66,7 @@ export const config = {
      * 如果为0, 则默认展示全部
      * 默认是4
      */
-    FESTIVALS_LIMIT: 0,
+    //FESTIVALS_LIMIT: ,
 
     /** 日期相关 */
 
@@ -76,7 +76,7 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2020-01-19"},
+      //{"keyword": "love_day", date: "2020-01-19"},
       // 结婚纪念日
       //{"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
@@ -97,10 +97,12 @@ export const config = {
       //{"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
       // 这样配置的话，就会每次随机选一句话发送
       {"keyword": "lover_prattle", contents: [
-        "因为太喜欢你，所以看谁都像是情敌。",
-        "申请成为你爱里的永久居民。",
-        "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-        "遇见你，就好像捡到了100斤的运气",
+        "没事长这么好看干嘛",
+        "本来以为是个美女结果是个绝世大美女无语",
+        "仙女下凡幸苦啦！",
+        "遇见大美女我很幸运",
+        "天使大概说的就是你这样的让人心动的外貌拥有者"
+        "你应该在淘宝上架，因为你是我最想购买的宝贝"
       ]},
     ],
 
